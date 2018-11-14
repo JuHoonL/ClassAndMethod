@@ -1,0 +1,20 @@
+package com.biz.method.classes.oop01_18_11_14;
+
+import com.biz.method.classes.dao_18_11_14.DogDAO;
+
+public class DogExec01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		DogDAO dogDao = new DogDAO();
+		dogDao.dogVO.setStrName("몽탱이");
+		
+		dogDao.dogRun();
+		dogDao.goEat();
+		
+		dogDao.dogRun("운동장");
+		dogDao.goEat("치즈");
+	}
+
+}
