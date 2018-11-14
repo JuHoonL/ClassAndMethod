@@ -1,4 +1,4 @@
-package com.biz.method.classes_18_11_13;
+package com.biz.method.classes_18_11_13and14;
 
 public class ScoreVO {
 	// public ScoreVO ScoreVO(){return ScoreVO;}라는 보이지는 않는 코드가 자동적으로 생성됌.
